@@ -1,6 +1,7 @@
 Assignment 1
 
-Allow the user to input 3 numbers. For convenience, I will refer to these numbers as A, B, and C. After the user enters these 3 numbers, output the following 5 calculations:
+Allow the user to input 3 numbers. For convenience, I will refer to these numbers as A, B, and C.
+After the user enters these 3 numbers, output the following 5 calculations:
 
 A + B
 B - C
@@ -8,9 +9,12 @@ A * C
 (A + B) / (B - C)
 (A + B + C) % C
 
-For the division calculation, I want you to return an integer rounded to the nearest whole value. For example, 2.3 -> 2 and 2.7 -> 3.
+For the division calculation, I want you to return an integer rounded to the nearest whole value.
+For example, 2.3 -> 2 and 2.7 -> 3.
 
-* Note that % is called the modulus operator. It divides the first number by the second number and returns the remainder. This means that 7 % 3 = 1, 8 % 3 = 2, and 9 % 3 = 0. It is a very useful operator and we will be putting it to use soon, so get acquainted with it now.
+* Note that % is called the modulus operator. It divides the first number by the second number
+and returns the remainder. This means that 7 % 3 = 1, 8 % 3 = 2, and 9 % 3 = 0.
+It is a very useful operator and we will be putting it to use soon, so get acquainted with it now.
 
 ----------------------------------------------------------------
 
