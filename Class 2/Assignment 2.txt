@@ -1,0 +1,83 @@
+Assignment 2
+
+This assignement has 2 parts. The first part will ask you to add functionality
+to the guessing number program we worked on in class. The second part will test
+your logic and understanding of the concepts covered to find the answer to a puzzle.
+
+I would like to know how you are all progressing on these exercises. As you complete them,
+please email me your work. You can find your projects in the following directory:
+
+C:\Users\YOUR_USERNAME\eclipse-workspace
+OR
+C:\Users\YOUR_USERNAME\workspace
+
+Zip your project folder and send it to me at beamer159@gmail.com
+
+----------------------------------------------------------------
+Part 1
+
+Add the following functions to the number guessing program. You may start with
+the code I provided.
+
+1. Only allow the user to guess a certain number of times. If they fail to pick
+the secret number after that many guesses show that they ~lost the game~. As they
+are guessing, indicate how many guesses they have left.
+
+2. Add a fourth difficulty option called Custom. When this is picked, allow the user
+to set the minimum and maximum values that the secret number can be, as well as the
+number of guesses they get.
+
+Bonus: A user may not know a reasonable number of guesses when they pick a min and max
+for the secret number. Therefore, come up with an algorithm in your code to determine
+what a good guess count would be for any range of numbers. Here is a starting point to
+get you thinking:
+
+	Easy (1-10): 3-4 guesses
+	Medium (1-100): 6-8 guesses
+	Hard (1-1000): 9-11 guesses.
+
+If the user enters "0" for the number of guesses, allow your program to calculate how
+many guesses they should get.
+
+----------------
+Sample Output:
+
+Let's play the guessing game!
+
+1: Easy
+2: Medium
+3: Hard
+4: Custom
+
+Enter a difficulty: 4
+Enter min value for the secret number: 30
+Enter max value for the secret number: 110
+Enter number of guesses: 0
+
+Guess the number between 30 and 110 (6 guesses left): 70
+Wrong, guess lower.
+
+Guess the number between 30 and 110 (5 guesses left): 50
+Wrong, guess lower.
+
+Guess the number between 30 and 110 (4 guesses left): 40
+Wrong, guess higher.
+
+Guess the number between 30 and 110 (3 guesses left): 45
+Wrong, guess higher.
+
+Guess the number between 30 and 110 (2 guesses left): 47
+Wrong, guess higher.
+
+Guess the number between 30 and 110 (1 guess left): 49
+Game over, you lost.
+
+----------------------------------------------------------------
+Part 2
+
+If we list all the natural numbers below 10 that are multiples of 3 or 5,
+we get 3, 5, 6 and 9. The sum of these multiples is 23.
+
+Find the sum of all the multiples of 3 or 5 below 1000.
+
+Check your answer with this app: https://drive.google.com/open?id=0BzwW07ekiVakZnFHOEpDQUhmRGM
