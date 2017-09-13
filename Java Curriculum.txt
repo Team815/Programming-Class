@@ -1,0 +1,47 @@
+Java Curriculum (tentative)
+
+Class 1
+	Console Output
+	Console Input
+	Mathematical Operations
+	Primitive Datatypes
+	
+Class 2
+	If Statements
+	While Loops
+	Switch-Case Statements
+	Conditionals
+
+Class 3
+	Arrays
+	Lists
+	For Loops
+	Methods
+	Parameters
+
+Class 4
+	Recursion
+	Static variables
+
+Class 5
+	Classes
+	Members
+	Getters and Setters
+
+Class 6
+	Inheritance
+	Interfaces
+
+Class 7
+	Polymorphism
+	Abstraction
+
+Class 8
+	Enumerations
+	Maps
+
+Class 9
+	Git
+
+Class 10
+	File Read/Write
