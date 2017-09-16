@@ -24,6 +24,7 @@ public class Part2CarpetCalc {
 				fmt.format("%.2f",cost);
 		System.out.println("Price for area coverage");
 		System.out.println("$" + fmt);
+		                fmt.close();
 		myScanner.close();
 		myScanner1.close();
 	}
