@@ -1,5 +1,8 @@
 Assignment 5
 
+This assignment has 2 parts. The first part will ask you to add functionality to a program we
+started in class. The second part will ask you to create a GitHub account.
+
 I would like to know how you are all progressing on these exercises. As you complete them,
 please email me your work. You can find your projects in the following directory:
 
@@ -10,6 +13,7 @@ C:\Users\YOUR_USERNAME\workspace
 Zip your project folder and send it to me at beamer159@gmail.com
 
 ----------------------------------------------------------------
+Part 1
 
 In class, we started a clock program. This program can create a clock object, set the
 time for the clock, and print a display of the clock's time. I want you to now implement
@@ -34,3 +38,11 @@ Adding 135 minutes to the clock using clock.incrementMinutes(135)
 11:15:00 AM
 Adding 12345 seconds to the clock using clock.incrementSeconds(12345)
 2:40:45 PM
+
+----------------------------------------------------------------
+Part 2
+
+Create a GitHub account, here: https://github.com/
+
+Our next lesson will look into how to use Git so that you can more
+easily interact with the lesson files and start learing version control.
