@@ -1,0 +1,36 @@
+Assignment 5
+
+I would like to know how you are all progressing on these exercises. As you complete them,
+please email me your work. You can find your projects in the following directory:
+
+C:\Users\YOUR_USERNAME\eclipse-workspace
+OR
+C:\Users\YOUR_USERNAME\workspace
+
+Zip your project folder and send it to me at beamer159@gmail.com
+
+----------------------------------------------------------------
+
+In class, we started a clock program. This program can create a clock object, set the
+time for the clock, and print a display of the clock's time. I want you to now implement
+three more member functions for the clock class: incrementHours(int hours),
+incrementMinutes(int minutes), and incrementSeconds(int seconds). These three functions
+should increase the current time on the clock by the amount specified by the parameter.
+
+Some advice: Start by implementing incrementHour, then incrementMinutes, and finally
+incrementSeconds. The reason is that incrementMinutes will probably need to call incrementHours,
+and incrementSeconds will likely call incrementMinutes.
+
+Don't forget to update AM/PM accordingly.
+
+----------------
+Sample Output
+
+Creating a clock, initialized for 6:00 PM
+6:00:00 PM
+Adding 15 hours to the clock using clock.incrementHours(15)
+9:00:00 AM
+Adding 135 minutes to the clock using clock.incrementMinutes(135)
+11:15:00 AM
+Adding 12345 seconds to the clock using clock.incrementSeconds(12345)
+2:40:45 PM
