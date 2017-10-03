@@ -1,1 +1,74 @@
-This will hold what assignment 6 will be.
+This assignment has only one part, and it is similar to the rectangle problem we did in class.
+
+I would like to know how you are all progressing on these exercises. As you complete them,
+please email me your work. You can find your projects in the following directory:
+
+C:\Users\YOUR_USERNAME\eclipse-workspace
+OR
+C:\Users\YOUR_USERNAME\workspace
+
+Zip your project folder and send it to me at beamer159@gmail.com
+
+----------------------------------------------------------------
+
+I am providing you the main function for you to use in your project. Simply copy it into
+your Main class and do not modify it. Your job is to create the Circle class that I reference
+in main. Specifically, add functionality for the following functions:
+
+- public Circle(double radiusIn) // This is the constructor
+- public double getDiameter()
+- public double getCircumference()
+- public double getArea() 
+- public static Circle circleAdd(Circle circle1, Circle circle2)
+
+Do accomplish this, you will need to know the following Java Math operations:
+
+- Math.PI // = 3.14159...
+- Math.pow(b, e) // power function, take b to the e power
+- Math.sqrt(n) // square root of n
+
+Note - the circleAdd function is the trickiest function in this program. First it is a static
+function, so remember what that means. Second, it returns a Circle object, so you will have
+to instantiate a Circle object within it as some point. Finally, note what it has to do:
+Given 2 circles, calculate the areas of both of them, add these areas together, and create
+another circle with an area equal to this sum. That should be some fun math for you.
+
+Here is the main function I want you to use.
+
+public static void main(String[] args) {
+	System.out.println("Create a circle with a radius of 5.5");
+	Circle circle1 = new Circle(5.5);
+	System.out.println("Circle 1 Diameter: " + circle1.getDiameter());
+	System.out.println("Circle 1 Circumference: " + circle1.getCircumference());
+	System.out.println("Circle 1 Area: " + circle1.getArea());
+	
+	System.out.println("\nCreate a circle with a radius of 7.8");
+	Circle circle2 = new Circle(7.8);
+	System.out.println("Circle 2 Diameter: " + circle2.getDiameter());
+	System.out.println("Circle 2 Circumference: " + circle2.getCircumference());
+	System.out.println("Circle 2 Area: " + circle2.getArea());
+	
+	System.out.println("\nCreate a circle with an area equal to the sum of the previous circles");
+	Circle circle3 = Circle.circleAdd(circle1, circle2);
+	System.out.println("Circle 3 Diameter: " + circle3.getDiameter());
+	System.out.println("Circle 3 Circumference: " + circle3.getCircumference());
+	System.out.println("Circle 3 Area: " + circle3.getArea());
+}
+
+----------------
+Sample Output:
+
+Create a circle with a radius of 5.5
+Circle 1 Diameter: 11.0
+Circle 1 Circumference: 34.55751918948772
+Circle 1 Area: 95.03317777109125
+
+Create a circle with a radius of 7.8
+Circle 2 Diameter: 15.6
+Circle 2 Circumference: 49.00884539600077
+Circle 2 Area: 191.134497044403
+
+Create a circle with an area equal to the sum of the previous circles
+Circle 3 Diameter: 19.08821626030049
+Circle 3 Circumference: 59.96739997349326
+Circle 3 Area: 286.1676748154943
