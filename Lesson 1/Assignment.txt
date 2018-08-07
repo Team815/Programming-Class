@@ -1,0 +1,74 @@
+Basic Assignment
+
+Input 4 numbers: 2 integers and 2 decimals. Then, perform the following calculations:
+
+integer1 + integer2 = sum
+decimal1 * decimal2 = product
+product - sum = difference
+(product + difference) / sum = quotient 
+sum % quotient = mod
+
+NOTE: Make quotient an int. You will need to explicitly cast "(product + difference) / sum" to an int as well (see the rounding example from the lesson)
+
+Example input/output (You just have to output the results, not necessarily the whole equations as shown below)
+
+1.
+Enter an integer: 3
+Enter another integer: 5
+Enter a decimal: 4.7
+Enter another decimal: 5.2
+3 + 5 = 8
+4.7 * 5.2 = 24.44
+24.44 - 8 = 16.44
+(24.44 + 16.44) / 8 = 5
+8 % 5 = 3
+
+2.
+Enter an integer: 17
+Enter another integer: 13
+Enter a decimal: 10.92
+Enter another decimal: 8.34
+17 + 13 = 30
+10.92 * 8.34 = 91.0728
+91.0728 - 30 = 61.0728
+(91.0728 + 61.0728) / 30 = 5
+30 % 5 = 0
+
+3.
+Enter an integer: 159
+Enter another integer: 98
+Enter a decimal: 43.87
+Enter another decimal: 12.546
+159 + 98 = 257
+43.87 * 12.546 = 550.39302
+550.39302 - 257 = 293.39302
+(550.39302 + 293.39302) / 257 = 3
+257 % 3 = 2
+
+Advanced Assignment
+
+You run a carpet store. Carpet costs 3.99 per square foot. Write a program that allows a user to input the length and width of a rectangular room they want to carpet. Allow for decimal inputs. Output the amount of carpet they need to purchase in square feet, as well as the price of this carpet, including a 6% sales tax.
+
+The difficultly of this assignment is formatting the price correctly. If the price comes out to 14.2682, you should round it to the nearest cent: $14.27.
+
+HINT: In the example above, turn 14.2682 into 1426.82, then round to the nearest int (we did this in the lesson) to get 1427, and then turn this into 14.27.
+
+Example input/output:
+
+1.
+Enter floor length: 10
+Enter floor width: 8
+Carpet: 80.0 sq ft
+Price: $338.35
+
+2.
+Enter floor length: 5.4
+Enter floor width: 3.8
+Carpet: 20.52 sq ft
+Price: $86.79
+
+3.
+Enter floor length: 314.159
+Enter floor width: 265.358
+Carpet: 83364.603922 sq ft
+Price: $352582.26
