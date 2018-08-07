@@ -63,7 +63,7 @@ public class Main {
 		
 		// Multiply and Divide Operators
 		
-		myInt = myInt * 3;                // Multiplies the value in myInt (12) by 3, assigns the result (36) to myInt
+		myInt = myInt * 3; // Multiplies the value in myInt (12) by 3, assigns the result (36) to myInt
 		
 		/*
 		 * A lot of things are happening here. The goal is to do 36 / 10 = 4 (36 / 10 = 3.6, round up to 4)
