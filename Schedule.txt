@@ -1,0 +1,20 @@
+08/06/2018 - Basics (Data Types, Math Operators, Input/Output, Math class)
+08/13/2018 - Control Flow (If/Else, (Do) While, For, Switch/Case, Conditional Operators)
+08/20/2018 - Functions (Parameters, Return Type, Function Override, Recursive)
+08/27/2018 - Miscellaneous (Array, List, Enum, HashMap, Static)
+09/03/2018 - Review
+09/10/2018 - Classes (Objects, Members, Access Specifiers)
+09/17/2018 - Inheritance, Interfaces
+09/24/2018 - Polymorphism
+10/01/2018 - Big Program Part 1
+10/08/2018 - Big Program Part 2
+10/15/2018 -
+10/22/2018 -
+10/29/2018 -
+11/05/2018 -
+11/12/2018 -
+11/19/2018 -
+11/26/2018 -
+12/03/2018 -
+12/10/2018 -
+12/17/2018 -
