@@ -1,0 +1,91 @@
+Assignment #2: Conditional Statements and Loops
+
+--------------------------------
+
+Problem #1
+Description: You want to determine if a number is even and/or greater than 100. A user inputs an integer, then:
+If the number is even, print "Even". 
+If the number is greater than 100, print "Greater than 100". 
+If the number is both even and greater than 100, print "Both"
+If the number is neither even nor greater than 100, print "Neither".
+
+Input: Any integer
+
+Output: One of the following statements
+"Even"
+"Greater than 100"
+"Neither"
+
+Example #1:
+Input = 4
+Output = "Even"
+
+Example #2:
+Input = 101
+Output = "Greater than 100"
+
+Example #3:
+Input = 102
+Output = "Both"
+
+Example #4:
+Input = 3
+Output = "Neither"
+
+--------------------------------
+
+Problem #2
+Description: A user inputs a string. You want to print every character in the string, one at a time.
+
+Input: Any string
+
+Output: Each character in the string on it's own line.
+
+Example #1:
+Input = Pizza
+Output = 
+P
+i
+z
+z
+a
+
+Example #2:
+Input = Hello World
+Output = 
+H
+e
+l
+l
+o
+
+W
+o
+r
+l
+d
+
+Example #3
+Input = dj38fh45j92dk47#
+Output = 
+d
+j
+3
+8
+f
+h
+4
+5
+j
+9
+2
+d
+k
+4
+7
+#
+
+Hint #1: You can see how long a string is by using the length() function, like this: stringLength = myString.length()
+
+Hint #2: You can access a single character in the string like this: myString[DESIRED_INDEX], where DESIRED_INDEX is the position of the character in the string minus 1.
+For example, if we had myString = "pizza", myString[0] would equal "p" and myString[4] would equal "a".
