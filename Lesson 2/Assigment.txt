@@ -3,7 +3,8 @@ Assignment #2: Conditional Statements and Loops
 --------------------------------
 
 Problem #1
-Description: You want to determine if a number is even and/or greater than 100. A user inputs an integer, then:
+Description: You want to determine if a number is even and/or greater than 100. 
+A user inputs an integer, then:
 If the number is even, print "Even". 
 If the number is greater than 100, print "Greater than 100". 
 If the number is both even and greater than 100, print "Both"
@@ -14,6 +15,7 @@ Input: Any integer
 Output: One of the following statements
 "Even"
 "Greater than 100"
+"Both
 "Neither"
 
 Example #1:
@@ -35,7 +37,8 @@ Output = "Neither"
 --------------------------------
 
 Problem #2
-Description: A user inputs a string. You want to print every character in the string, one at a time.
+Description: A user inputs a string. You want to print every character in the string, 
+one at a time.
 
 Input: Any string
 
@@ -85,7 +88,9 @@ k
 7
 #
 
-Hint #1: You can see how long a string is by using the length() function, like this: stringLength = myString.length()
+Hint #1: You can see how long a string is by using the length() function, 
+like this: stringLength = myString.length()
 
-Hint #2: You can access a single character in the string like this: myString[DESIRED_INDEX], where DESIRED_INDEX is the position of the character in the string minus 1.
-For example, if we had myString = "pizza", myString[0] would equal "p" and myString[4] would equal "a".
+Hint #2: You can access a single character in the string like this: 
+myString.charAt(DESIRED_INDEX), where DESIRED_INDEX is the position of the character in the string minus 1.
+For example, if we had myString = "pizza", myString.charAt(0) would equal "p" and myString.charAt(4) would equal "a".
