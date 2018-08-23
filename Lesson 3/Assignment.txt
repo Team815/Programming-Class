@@ -1,0 +1,15 @@
+Complete the following CodingBat assignments:
+Logic-1: cigarParty - https://codingbat.com/prob/p159531
+Logic-1: inOrder - https://codingbat.com/prob/p154188
+Logic-1: sumLimit - https://codingbat.com/prob/p118077
+String-2: doubleChar - https://codingbat.com/prob/p165312
+
+Hint: for doubleChar, you can add characters to a string this way:
+	String myString = "";
+	char myChar = 'A';
+	
+	myString = myString + myChar + myChar // Adds 2 'A's to myString
+
+Note that using the plus-assignment operator (+=) will NOT work:
+
+	myString += myChar + myChar // Will not work!
