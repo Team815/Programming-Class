@@ -1,0 +1,33 @@
+Assignment #4: Lists, Maps, and other Data Structures
+
+------------------------------------------------------
+Problem #1
+
+This first problem will give you some basic practice with arrays.
+You can find the problem here on codingbat.com:
+https://codingbat.com/prob/p112409
+
+
+------------------------------------------------------
+Problem #2
+
+This second problem will give you some practice with ArrayLists in Java.
+
+Description:
+Create a List which contains all even number from 1 to 100.
+Print the list once you have created it to make sure that it is correct.
+
+Input: None
+
+Output: A list with every even number from 1 to 100 in it.
+The output should look like this: [2,4,6,8... 98, 100]
+
+------------------------------------------------------
+Problem #3
+
+This third problem will give you some basic practice with maps.
+You can find the problem here on codingbat.com:
+https://codingbat.com/prob/p107259
+
+
+------------------------------------------------------
