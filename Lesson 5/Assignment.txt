@@ -1,0 +1,20 @@
+Assignment #5: Class
+
+------------------------------------------------------
+Problem Description:
+Add an Elevator to the Robot. An Elevator should be 
+able to go up, to go down, and we should be able to see
+when the elevator is up, down, or moving up or moving down.
+
+Add a new Elevator class to the Robot project we made in
+class. If you don't have the code that we made in class, 
+you can find the code under lesson 5 on the programming
+class repository on GitHub. Add functions to the Elevator
+class to "move" the elevator up or down, and one function
+to tell us if the elevator is up, down, moving up, or 
+moving down.
+
+Hint: If you need an example, look at the Claw that we made.
+The Elevator will be very similar to the Claw, except
+instead of opening and closing, it will be "moving" up or
+down.

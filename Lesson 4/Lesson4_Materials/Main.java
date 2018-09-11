@@ -85,7 +85,7 @@ public class Main {
 			//System.out.println(integerArray[i]);
 		}
 		// Note that you cannot just print out the whole array like this:
-		// System.out.println(integerArray)
+		// System.out.println(integerArray);
 		// Doing that instead prints the array's address in memory
 		
 		// You cannot delete an item out of an array, but you can change to 
@@ -93,7 +93,7 @@ public class Main {
 		integerArray[0] = -1;
 
 		// You can see the size of the array like this: arrayName.length
-		//System.out.println(stringArray.length);
+		// System.out.println(stringArray.length);
 		
 		// Shortcoming of arrays
 			// The size is fixed
@@ -118,7 +118,7 @@ public class Main {
 		sequalTrilogy.add("The Last Jedi");
 		
 		// Note that you cannot add to an immutable list
-		// originalTrilogy.add("Holiday Special"); would result in a runtime error
+		// originalTrilogy.add("Holiday Special"); //would result in a runtime error
 		
 		// Access an item in a list like this: listName.get(index)
 		//System.out.println(sequalTrilogy.get(0));
@@ -150,13 +150,15 @@ public class Main {
 		
 		// Sort List
 		integerList.add(0);
-		//System.out.println(integerList);
+		// System.out.println(integerList);
 		integerList.sort(null);
-		//System.out.println(integerList);
+		// System.out.println(integerList);
 		
 		// For ArrayLists, see if the List contains a given object (returns true of false)
 		//System.out.println(sequalTrilogy.contains("The Phantom Menace"));
 
+		//System.out.println(originalTrilogy);
+		
 		/* Maps */
 		
 		// Maps are like Lists, but instead of implicit numeric indices,
@@ -191,14 +193,14 @@ public class Main {
 		}
 		
 		// Or with lambda expression
-		//prequalTrilogy.forEach((epidsode, title) -> System.out.println(title));
+		// prequalTrilogy.forEach((episode, title) -> System.out.println(title));
 		// Note that there are many different ways to iterate through a Map,
 		// but the most common way is probably the first method shown,
 		// using the foreach loop
 		
 		// Maps have many other useful methods similar to the List methods
 		// Many of the useful List methods shown above also apply to Maps
-		
+
 		/* Other data structures */
 		// Stacks - FILO
 		// Queues - FIFO
