@@ -3,10 +3,12 @@ package first.team815.robotics;
 public class Robot {
 	static DriveTrain driveTrain;
 	static Claw claw;
+	static Elevator elevator;
 	
 	public void autonamousInit() {
 		driveTrain = new DriveTrain(5);
 		claw = new Claw();
+		elevator = new Elevator();
 	}
 	
 	public void autonamousPeriodic() {
@@ -18,6 +20,17 @@ public class Robot {
 			claw.close();
 		}
 		System.out.println("Claw open? " + claw.isOpen());
+		
+		if (elevator.isDown()) {
+			elevator.moveUp();
+		}
+		else if (elevator.isUp()) {
+			elevator.moveDown();
+		}
+		else if (elevator.isMovingDown() || elevator.isMovingUp()) {
+			elevator.stop();
+		}
+		elevator.printState();
 	}
 	
 	public void teleopInit() {

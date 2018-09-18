@@ -1,4 +1,4 @@
-package wirsing.bring.Functions;
+package Lesson3_Material;
 
 import java.util.Scanner;
 
