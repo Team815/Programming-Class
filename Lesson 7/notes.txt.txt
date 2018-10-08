@@ -1,0 +1,38 @@
+Robotics Agenda
+- What is version control
+	- Explain basic definition of VC and why we use it
+	- Define some vocab
+		- Version Control
+		- Git
+		- GitHub
+		- Command line interface
+		- Git Bash
+	- https://youtu.be/9GKpbI1siow
+	
+- Why and how we use it for robotics
+	- TOur GitHub via our project
+	- Demo last year's github project
+	
+- Installing Git, getting github account
+	- https://git-scm.com/download/win
+	
+- Using the command line (git bash tutorial)
+	- ls
+	- cd
+	- pwd
+	- mkdir
+	- rm (-r) 
+	- tab completion
+	
+- Git tutorial in git bash
+	- git init
+	- git status
+	- git add
+		- git add --all
+		- git add {filename}
+	- git commit -m
+	- git push/git pulled
+	- merge conflicts
+- How to open robot project in Eclipse
+- Installing PoshPlus
+- Using git aliases
